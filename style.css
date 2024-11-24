@@ -1,9 +1,13 @@
+:root {
+    --black: #454752;
+}
 body {
     font-family: Arial, sans-serif;
     margin: 20px;
 }
 form {
     max-width: 500px;
+    width: 500px;
     margin: auto;
 }
 label {
@@ -26,4 +30,12 @@ button {
 }
 button:hover {
     background-color: #0056b3;
+}
+.form-header {
+    padding: 24px 24px;
+    border : 1px solid var(--black) ;
+    width: fit-content;
+    margin: 0 auto;
+    border-radius: 12px;
+    
 }

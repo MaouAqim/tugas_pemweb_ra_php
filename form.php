@@ -29,6 +29,7 @@
     </script>
 </head>
 <body>
+    <div class="form-header">
     <h1 style="text-align:center;">Form Pendaftaran</h1>
     <h3 style="text-align:center;">Muklis Mustaqim | 122140115</h3>
     <form action="process.php" method="POST" enctype="multipart/form-data" onsubmit="validateForm(event)">
@@ -52,5 +53,7 @@
 
         <button type="submit">Kirim</button>
     </form>
+    </div>
+
 </body>
 </html>
